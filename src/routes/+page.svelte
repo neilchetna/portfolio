@@ -1,2 +1,12 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+	import { Hero, Navbar, About, Work, Projects, Contact } from '$lib';
+</script>
+
+<div class="bg-paper-white-50 ring-paper-black fixed w-full ring-2">
+	<Navbar />
+</div>
+<Hero />
+<About />
+<Work />
+<Projects />
+<Contact />
