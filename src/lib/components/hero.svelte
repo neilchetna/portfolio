@@ -6,7 +6,7 @@
 <section
 	class="text-paper-black flex h-full snap-start flex-col flex-wrap items-center justify-center overflow-auto"
 >
-	<div class="max-w-4xl px-4 font-semibold">
+	<div class="max-w-3xl px-4 font-semibold">
 		<h1 class="font-heading my-6 text-4xl font-bold md:text-6xl">
 			I build software for the
 			<span class="bg-paper-blue-50 neo-shadow-lg px-0.5">web</span>
