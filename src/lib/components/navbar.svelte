@@ -18,14 +18,16 @@
 		},
 		{
 			title: 'Connect',
-			id: '#'
+			id: '#connect'
 		}
 	];
 </script>
 
-<nav class="flex items-center px-4 py-4">
-	<p class="font-heading mx-auto text-xl md:m-0">Neel Chetna</p>
-	<ul class="m-auto hidden w-fit gap-12 md:flex">
+<nav class="grid grid-cols-1 px-8 py-4 md:grid-cols-3">
+	<p class="font-heading flex items-center justify-self-center md:justify-self-start">
+		Neel Chetna
+	</p>
+	<ul class="hidden w-fit gap-12 justify-self-center md:flex">
 		{#each items as item (item.title)}
 			<li>
 				<Button href={item.id} class="rounded-full" size="sm" variant="ghost">{item.title}</Button>
