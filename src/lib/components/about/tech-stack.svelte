@@ -37,6 +37,7 @@
 				opacity: 0,
 				duration: 0.7,
 				stagger: 0.2,
+				ease: 'back.out',
 				scrollTrigger: {
 					trigger: '#screen',
 					start: 'top 70%',

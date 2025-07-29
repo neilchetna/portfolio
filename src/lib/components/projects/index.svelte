@@ -23,6 +23,7 @@
 				opacity: 0,
 				duration: 0.7,
 				stagger: 0.2,
+				ease: 'back.out',
 				scrollTrigger: {
 					trigger: '#project',
 					start: 'top 70%',
@@ -35,7 +36,7 @@
 
 <section class="bg-paper-white-50 snap-start px-8 pt-20" id="projects">
 	<div class="m-auto w-full max-w-4xl pb-20">
-		<h3 id="project-title" class="font-heading text-3xl md:text-5xl">Projects</h3>
+		<h3 id="project-title" class="font-heading pb-4 text-3xl md:text-5xl">Projects</h3>
 
 		<div id="project" class="mt-4 flex flex-wrap gap-8">
 			{#each projects as project}

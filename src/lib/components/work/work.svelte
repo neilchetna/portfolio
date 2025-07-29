@@ -20,7 +20,7 @@
 
 <section id="work" class="bg-paper-white-50 snap-start px-8 pt-20">
 	<div class="m-auto w-full max-w-4xl">
-		<h3 id="work-title" class="font-heading text-3xl md:text-5xl">Where I've worked</h3>
+		<h3 id="work-title" class="font-heading pb-4 text-3xl md:text-5xl">Where I've worked</h3>
 		<JobList />
 	</div>
 </section>
