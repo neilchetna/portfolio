@@ -5,7 +5,6 @@
 	let { children } = $props();
 </script>
 
-<div class="magicpattern relative h-dvh snap-y">
+<div class="h-dvh">
 	{@render children()}
-	<Footer />
 </div>

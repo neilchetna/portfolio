@@ -15,7 +15,7 @@
 	const socials: Social[] = [Linkedin, GitHub, X, Email, localTime];
 </script>
 
-<footer class="bg-paper-black text-paper-white-50 p-8">
+<footer class="bg-paper-black text-paper-white-50 p-8 md:p-12">
 	<div class="justify-between md:flex">
 		<div class="flex flex-col items-center md:items-start">
 			<p class="font-heading text-md">Neel Chetna</p>

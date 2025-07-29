@@ -12,6 +12,9 @@
 		TypeScript,
 		type Tool
 	} from '$lib/const';
+	import gsap from 'gsap';
+	import { ScrollTrigger } from 'gsap/ScrollTrigger';
+	import { onMount } from 'svelte';
 
 	const tools: Tool[] = [
 		TypeScript,
@@ -25,9 +28,30 @@
 		MongoDB,
 		Nextjs
 	];
+
+	onMount(() => {
+		gsap.registerPlugin(ScrollTrigger);
+		requestAnimationFrame(() => {
+			gsap.from('#screen', {
+				scale: 0.5,
+				opacity: 0,
+				duration: 0.7,
+				stagger: 0.2,
+				scrollTrigger: {
+					trigger: '#screen',
+					start: 'top 70%',
+					toggleActions: 'play none none none',
+					once: true
+				}
+			});
+		});
+
+		ScrollTrigger.refresh();
+	});
 </script>
 
 <div
+	id="screen"
 	class="bg-paper-white-50 text-paper-black flex w-full max-w-2xl flex-col overflow-hidden rounded-xl"
 >
 	<div class="ring-paper-black flex gap-1.5 px-2 py-2 ring-2">
