@@ -1,12 +1,13 @@
 <script>
-	import { Hero, Navbar, About, Work, Projects, Contact } from '$lib';
+	import { Hero, Navbar, About, Work, Projects, Contact, Footer } from '$lib';
 </script>
 
-<div class="bg-paper-white-50 ring-paper-black fixed z-50 w-full ring-2">
-	<Navbar />
+<Navbar />
+<div class="relative h-full snap-y snap-mandatory">
+	<Hero />
+	<About />
+	<Work />
+	<Projects />
+	<Contact />
+	<Footer />
 </div>
-<Hero />
-<About />
-<Work />
-<Projects />
-<Contact />
