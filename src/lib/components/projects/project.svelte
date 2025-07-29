@@ -5,7 +5,7 @@
 	const { project }: { project: Project } = $props();
 </script>
 
-<div class="border-paper-black neo-shadow-lg min-w-80 flex-1 border-3 p-4">
+<div class="border-paper-black neo-shadow min-w-80 flex-1 border-3 p-4">
 	<img class="border-paper-black aspect-auto border-3" src={project.img} alt={project.title} />
 	<div class="mt-4 flex justify-between">
 		<a href={project.url} class="flex items-center gap-1 text-xl font-semibold"

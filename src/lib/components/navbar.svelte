@@ -7,9 +7,9 @@
 		gsap.from('#navbar', {
 			y: -100,
 			opacity: 0,
-			duration: 0.7,
+			duration: 1,
 			stagger: 0.2,
-			ease: 'power2.out'
+			ease: 'power3.out'
 		});
 	});
 
