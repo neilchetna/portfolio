@@ -5,7 +5,7 @@
 	const { project }: { project: Project } = $props();
 </script>
 
-<div class="border-paper-black neo-shadow min-w-80 flex-1 rounded-sm border-3 p-4 transition-all">
+<div class="border-paper-black neo-shadow min-w-80 flex-1 rounded-sm border-3 p-4">
 	<img
 		class="border-paper-black aspect-auto rounded-sm border-3"
 		src={project.img}

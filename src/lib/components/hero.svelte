@@ -9,7 +9,7 @@
 	import Button from './ui/button/button.svelte';
 
 	let lines: HTMLDivElement;
-	let emitter: HTMLButtonElement;
+	let emitter: HTMLElement;
 
 	onMount(() => {
 		gsap.registerPlugin(ScrollTrigger, Physics2DPlugin);
@@ -37,7 +37,7 @@
 				left: e.clientX,
 				scale: 0
 			});
-			document.body.appendChild(dot);
+			emitter.appendChild(dot);
 
 			gsap
 				.timeline({
@@ -68,13 +68,13 @@
 </script>
 
 <section
-	class="text-paper-black magicpattern flex h-full snap-center flex-col flex-wrap items-center justify-center overflow-auto"
+	bind:this={emitter}
+	class="text-paper-black magicpattern flex h-full snap-center flex-col flex-wrap items-center justify-center overflow-auto overflow-hidden"
 >
 	<div bind:this={lines} class="max-w-4xl px-8 font-semibold">
 		<h1 class="font-heading line my-6 text-4xl font-bold md:text-7xl">
 			Code that clicks on the
 			<button
-				bind:this={emitter}
 				onclick={onConfettiClick}
 				class="decoration-paper-blue-150 text-paper-blue-150 hover:decoration-paper-blue-50 hover:text-paper-blue-50 cursor-pointer-custom overflow-hidden px-0.5 underline decoration-4 transition-all"
 				>web</button
