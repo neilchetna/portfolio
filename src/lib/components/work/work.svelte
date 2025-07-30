@@ -18,7 +18,7 @@
 	});
 </script>
 
-<section id="work" class="bg-paper-white-50 snap-start px-8 pt-20">
+<section id="work" class="bg-paper-white-50 snap-start px-8 pt-16">
 	<div class="m-auto w-full max-w-4xl">
 		<h3 id="work-title" class="font-heading pb-4 text-3xl md:text-5xl">Where I've worked</h3>
 		<JobList />

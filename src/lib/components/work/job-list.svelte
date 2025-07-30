@@ -29,7 +29,10 @@
 
 <div class="m-auto mt-4 flex w-full flex-wrap gap-8">
 	{#each jobs as job (job.company)}
-		<div id="work-card" class="neo-shadow border-paper-black flex w-full min-w-80 flex-1 border-3">
+		<div
+			id="work-card"
+			class="neo-shadow border-paper-black flex w-full min-w-80 flex-1 overflow-hidden rounded-sm border-3"
+		>
 			<div class="bg-paper-blue-100 border-paper-black flex aspect-square border-r-3 p-4">
 				<img class="m-auto size-22" src={job.img} alt={job.company} />
 			</div>
