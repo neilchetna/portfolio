@@ -69,7 +69,7 @@
 			<ul class="scroll-track flex w-max gap-4 py-1 whitespace-nowrap">
 				{#each tools.concat(tools) as { name, icon: Icon }, i (i)}
 					<li
-						class="group/item reset-track border-paper-black hover:bg-paper-pink-50 neo-shadow inline-block w-auto min-w-36 gap-4 border-2"
+						class="group/item reset-track border-paper-black hover:bg-paper-pink-50 neo-shadow inline-block w-auto min-w-36 gap-4 overflow-hidden rounded-sm border-2"
 					>
 						<Icon class="m-auto my-10" size="64px" />
 						<p

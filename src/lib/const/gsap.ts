@@ -1,5 +1,5 @@
 export const TextAppearConfig: gsap.TweenVars = {
-	y: 30,
+	y: 50,
 	opacity: 0,
 	duration: 0.7,
 	stagger: 0.2,

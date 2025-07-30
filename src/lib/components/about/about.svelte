@@ -33,10 +33,12 @@
 
 <section
 	id="about"
-	class="bg-paper-black text-paper-white-50 h-full snap-center px-8 pt-20 pb-8 md:pb-12"
+	class="bg-paper-black text-paper-white-50 snap-center px-8 pt-16 pb-8 md:h-full md:pb-12"
 >
-	<div class="m-auto flex h-full w-full max-w-4xl flex-col items-center justify-between">
-		<h2 id="sub-title" class="text-heading text-center text-2xl font-semibold md:text-7xl">
+	<div
+		class="m-auto flex h-full w-full max-w-4xl flex-col items-center justify-between gap-8 md:gap-0"
+	>
+		<h2 id="sub-title" class="text-heading text-center text-2xl font-semibold md:text-6xl">
 			I'm a full-stack developer with a strong focus on developing bug-free smooth user experiences
 		</h2>
 		<TechStack />
