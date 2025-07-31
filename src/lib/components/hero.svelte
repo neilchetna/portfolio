@@ -53,7 +53,7 @@
 					{
 						duration: 2,
 						physics2D: {
-							velocity: gsap.utils.random(500, 1000),
+							velocity: gsap.utils.random(500, 750),
 							angle: gsap.utils.random(0, 360),
 							gravity: 1500
 						},
