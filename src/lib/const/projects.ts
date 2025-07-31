@@ -1,4 +1,7 @@
 import { Golang, Nextjs, Node, Python, React, Svelte, type Tool } from './tools-&-tech';
+import DoMosh from '../static/do-mosh.png';
+import TerminalWordle from '../static/terminal-wordle.png';
+import Dune from '../static/dune.png';
 
 export type Project = {
 	readonly title: string;
@@ -14,7 +17,7 @@ export const projects: Project[] = [
 		title: 'Do-mosh Planner',
 		url: 'https://github.com/neilchetna/planner-webapp',
 		isOngoing: true,
-		img: 'https://images.unsplash.com/photo-1581287053822-fd7bf4f4bfec?q=80&w=1801&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+		img: DoMosh,
 		stack: [Golang, Nextjs, React],
 		description:
 			'A planner for maintaining all the tasks at one place. Built on the principle of local first.'
@@ -22,14 +25,14 @@ export const projects: Project[] = [
 	{
 		title: 'Terminal Worlde',
 		url: 'https://github.com/neilchetna/Terminal-Wordle',
-		img: 'https://images.unsplash.com/photo-1581287053822-fd7bf4f4bfec?q=80&w=1801&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+		img: TerminalWordle,
 		stack: [Node],
 		description: "A version of the New York Time's popular game wordle, but for the commandline."
 	},
 	{
 		title: 'Dune - Cellular Projects',
 		url: 'https://github.com/neilchetna/dune',
-		img: 'https://images.unsplash.com/photo-1581287053822-fd7bf4f4bfec?q=80&w=1801&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+		img: Dune,
 		stack: [Svelte],
 		description:
 			'Collection of micro-projects built to study how simulations and cellular automaton work.'
