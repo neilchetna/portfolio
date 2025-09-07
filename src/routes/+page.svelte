@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { Hero, Navbar, About, Work, Projects, Contact, Footer } from '$lib';
 </script>
 

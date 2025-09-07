@@ -34,7 +34,7 @@
 			class="neo-shadow border-paper-black flex w-full min-w-80 flex-1 overflow-hidden rounded-sm border-3"
 		>
 			<div class="bg-paper-blue-100 border-paper-black flex aspect-square border-r-3 p-4">
-				<img class="m-auto size-22" src={job.img} alt={job.company} />
+				<img loading="lazy" class="m-auto size-22" src={job.img} alt={job.company} />
 			</div>
 			<div class="h-full flex-1 py-2">
 				<a

@@ -8,8 +8,9 @@
 <div class="border-paper-black neo-shadow min-w-80 flex-1 rounded-sm border-3 p-4">
 	<img
 		class="border-paper-black aspect-auto rounded-sm border-3"
+		loading="lazy"
 		src={project.img}
-		alt={project.title}
+		alt={`${project.title} - ${project.description}`}
 	/>
 	<div class="mt-4 flex justify-between">
 		<a href={project.url} class="flex items-center gap-1 text-xl font-semibold"

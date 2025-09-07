@@ -1,7 +1,7 @@
 import { Golang, Nextjs, Node, Python, React, Svelte, type Tool } from './tools-&-tech';
-import DoMosh from '../static/do-mosh.png';
-import TerminalWordle from '../static/terminal-wordle.png';
-import Dune from '../static/dune.png';
+import DoMosh from '../static/do-mosh.webp';
+import TerminalWordle from '../static/terminal-wordle.webp';
+import Dune from '../static/dune.webp';
 
 export type Project = {
 	readonly title: string;
