@@ -69,11 +69,11 @@
 
 <section
 	bind:this={emitter}
-	class="text-paper-black magicpattern flex h-full snap-center flex-col flex-wrap items-center justify-center overflow-auto overflow-hidden"
+	class="text-paper-black magicpattern flex h-full snap-center flex-col flex-wrap items-center justify-center overflow-hidden"
 >
 	<div bind:this={lines} class="max-w-4xl px-8 font-semibold">
 		<h2 class="font-heading line my-6 text-4xl font-bold md:text-7xl">
-			Code that clicks on the
+			I like to code for the
 			<button
 				onclick={onConfettiClick}
 				class="decoration-paper-blue-150 text-paper-blue-150 hover:decoration-paper-blue-50 hover:text-paper-blue-50 cursor-pointer-custom overflow-hidden px-0.5 underline decoration-4 transition-all"
@@ -85,8 +85,19 @@
 			Python and Golang — from pixel-perfect UIs to solid backends.
 		</h1>
 		<div class="line mt-6 flex gap-4">
-			<Button class="hover:-mt-1" size="lg">My Resume <IconDownload /></Button>
-			<Button class="hover:-mt-1" size="lg">Say Hello 👋</Button>
+			<Button
+				href="Neel_Chetna_Resume.pdf"
+				download="Neel_Chetna_Resume.pdf"
+				class="hover:-mt-1"
+				size="lg"
+				type="submit">My Resume <IconDownload /></Button
+			>
+			<Button
+				href="https://www.linkedin.com/in/neelchetna
+"
+				class="hover:-mt-1"
+				size="lg">Say Hello 👋</Button
+			>
 		</div>
 	</div>
 </section>

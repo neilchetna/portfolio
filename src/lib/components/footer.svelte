@@ -19,7 +19,7 @@
 	<div class="justify-between md:flex">
 		<div class="flex flex-col items-center md:items-start">
 			<p class="font-heading text-md">Neel Chetna</p>
-			<p class="text-xs">© 2025 Neel Chetna, All rights reserved</p>
+			<p class="text-xs">© 2026 Neel Chetna, All rights reserved</p>
 		</div>
 		<div class="items-around mt-4 flex flex-wrap md:mt-0">
 			{#each socials as social}

@@ -35,7 +35,9 @@
 				Let's develop your next big thing together.
 			</h2>
 			<div>
-				<Button class="" variant="secondary" size="lg">Get in touch</Button>
+				<Button href="https://www.linkedin.com/in/neelchetna" variant="secondary" size="lg"
+					>Get in touch</Button
+				>
 			</div>
 		</div>
 	</div>
